@@ -1,0 +1,33 @@
+html, body {
+    font-family: "S-Core Dream" ,"Francois One", "Malgun Gothic", "맑은 고딕", Dotum, 돋움, Helvetica, "Apple SD Gothic Neo", "애플 SD 산돌고딕 Neo", sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    letter-spacing: 0; /* 자간 */
+    line-height: 1.4; /* 배수 - 글자크기에 1.4배 */
+    color: #F9F5EC; /* 글자 색상 */
+    word-break: keep-all; /* 단어별로 줄바꿈 */
+    word-wrap: break-word; /* 만약 단어가 엄청 길면 강제로 줄바꿈 실행 */
+}
+#wrap, body {
+    min-width: 1467px;
+    /*overflow: hidden;*/
+    position: relative;
+}
+.wrapper {
+    width: 1427px; 
+    margin: 0 auto;
+}
+
+::selection {
+    background-color: #F9F5EC;
+    color: #5E83AF;
+}
+:root {
+    --color-main-b : #5E83AF;
+    --color-main-b05 : rgba(94,131,175,0.5);
+    --color-background: #2A2A2A;
+    --tit-fontfamily : 'Francois One';
+    --color-txt-w : #F9F5EC;
+    --color-txt-w05 : rgba(249,245,236,0.5);
+    --color-txt-w03 : rgba(249,245,236,0.3);
+}
